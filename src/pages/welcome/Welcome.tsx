@@ -1,0 +1,27 @@
+export const Welcome = () => {
+  return (
+    <>
+      <div className="h-screen w-screen bg-amber-50">
+        <div className="w-full border-b border-black h-20 px-[19vw]  ">
+          <div className="flex justify-between h-full items-center">
+            <div className="text-4xl font-serif font-semibold"> Writly</div>
+            <div className="flex gap-6 items-center text-sm">
+              <div>Our Story</div>
+              <div>Membership</div>
+              <div>Write</div>
+              <div>Sign In</div>
+              <div className="bg-black rounded-full px-4 py-2 text-white">
+                Get Started
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="relative h-[84vh] border-b border-black w-full px-[19vw]  ">
+          <div className="flex flex-col h-full  justify-center w-7/12">
+            <div className="text-9xl font-serif ">Human stories & ideas</div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
