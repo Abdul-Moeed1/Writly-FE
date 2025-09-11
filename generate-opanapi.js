@@ -2,7 +2,7 @@ import openapi from "openapi-typescript-codegen";
 
 const generateAxios = async () => {
   openapi.generate({
-    input: "http://localhost:3000/api/docs-json",
+    input: "http://localhost:3001/api/docs-json",
     output: "./generated",
     httpClient: "axios",
   });
