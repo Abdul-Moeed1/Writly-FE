@@ -20,7 +20,7 @@ export const Input = ({
         type={type}
         value={value}
         onChange={onChange}
-        className={` h-9  rounded px-4 ring-0 py-2 outline-0 !bg-gray-100 ${
+        className={` h-9  rounded-[5px] px-4 ring-0 py-2 outline-0 !bg-gray-100 ${
           error
             ? "border-red-500 focus:outline-0 border"
             : "focus:border-black focus:border"
