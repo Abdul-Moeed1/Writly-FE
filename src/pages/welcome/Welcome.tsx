@@ -9,19 +9,19 @@ export const Welcome = () => {
       <div className="h-screen w-screen bg-amber-50">
         <div className="w-full border-b border-black h-20 px-[19vw]  ">
           <div className="flex justify-between h-full items-center">
-            <div className="text-4xl font-serif font-semibold"> Writly</div>
+            <div className="text-4xl font-serif font-semibold cursor-pointer"> Writly</div>
             <div className="flex gap-6 items-center text-sm">
-              <div>Our Story</div>
-              <div>Membership</div>
-              <div>Write</div>
-              <div
+              <div className="cursor-pointer">Our Story</div>
+              <div className="cursor-pointer">Membership</div>
+              <div className="cursor-pointer">Write</div>
+              <div className="cursor-pointer"
                 onClick={() => {
                   setIsOpen(true);
                 }}
               >
                 Sign In
               </div>
-              <div className="bg-black rounded-full px-4 py-2 text-white">
+              <div className="bg-black rounded-full px-4 py-2 text-white cursor-pointer">
                 Get Started
               </div>
             </div>
@@ -34,7 +34,6 @@ export const Welcome = () => {
           }}
         >
           <SignUp />
-          <div>Sign up</div>
         </Modal>
         <div className="relative h-[84vh] border-b border-black w-full px-[19vw]  ">
           <div className="flex flex-col h-full  justify-center w-[43vw] gap-10">
@@ -42,7 +41,7 @@ export const Welcome = () => {
             <div className="text-2xl">
               A place to read, write, and deepen your understanding
             </div>
-            <span className="!inline-block bg-black text-white px-4 py-2 rounded-full w-[200px] text-center align-center text-xl font-semibold">
+            <span className="!inline-block bg-black text-white px-4 py-2 rounded-full w-[200px] text-center align-center text-xl font-semibold cursor-pointer">
               Start reading
             </span>
           </div>
